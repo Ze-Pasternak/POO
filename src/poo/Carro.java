@@ -12,6 +12,16 @@ public class Carro {
     String placa;
     int numPortas;
 
+    void imprimeDadosDoCarro() {
+        System.out.println("--------CARRO-------");
+        System.out.println("cor:" + cor);
+        System.out.println("N° Portas:" + numPortas);
+        System.out.println("PLACA:" + placa);
+        System.out.println("Modelo" + tipo);
+
+          
+    }
+
     public String getTipo() {
         return tipo;
 
@@ -22,29 +32,31 @@ public class Carro {
 
     }
 
-    public String getCor(){
-       return cor;
+    public String getCor() {
+        return cor;
     }
-    
+
     public void setCor(String Cor) {
         this.cor = cor;
-        
+
     }
-    public String getPlaca(){
-         return placa;
-    
+
+    public String getPlaca() {
+        return placa;
+
     }
-    
+
     public void setPlaca(String Placa) {
         this.placa = Placa;
     }
-    public int getnumPortas(){
-         return numPortas;
-    
+
+    public int getnumPortas() {
+        return numPortas;
+
     }
-    
+
     public void setnumPortas(int numPortas) {
         this.numPortas = numPortas;
     }
-    
+
 }

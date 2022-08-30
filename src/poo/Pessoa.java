@@ -15,6 +15,10 @@ public class Pessoa {
     String corDoCabelo;
     String bioTipo;
     int idade;
+  
+    void imprimePessoa(){
+        
+    }
 
     public String getNome() {
         return nome;
@@ -30,7 +34,7 @@ public class Pessoa {
 
     }
     public void setCorDoCabelo(String CorDoCabelo) {
-        this.corDoCabelo = CorDoCabelo;
+        this. CorDoCabelo = CorDoCabelo;
     }
  public String getBioTipo() {
         return bioTipo;
@@ -39,4 +43,11 @@ public class Pessoa {
     public void setBioTipo(String bioTipo) {
         this.bioTipo = bioTipo;
     }
+     public int getIdade() {
+        return idade;
+
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
 }
