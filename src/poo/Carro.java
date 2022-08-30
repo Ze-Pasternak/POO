@@ -38,5 +38,13 @@ public class Carro {
     public void setPlaca(String Placa) {
         this.placa = Placa;
     }
+    public int getnumPortas(){
+         return numPortas;
+    
+    }
+    
+    public void setnumPortas(int numPortas) {
+        this.numPortas = numPortas;
+    }
     
 }
